@@ -1,0 +1,38 @@
+{
+    "name": "sirajunnasihin/laracrash",
+    "description": "Laravel plugin to enforce you client paid your laravel project",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.9",
+        "laravel/pint": "^1.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sirajunnasihin\\LaraCrash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sirajunnasihin",
+            "email": "therasoftware010@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sirajunnasihin\\LaraCrash\\LaraCrashServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
